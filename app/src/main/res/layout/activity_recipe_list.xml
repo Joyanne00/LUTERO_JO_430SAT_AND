@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRecipe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spaghetti Carbonara"
+        android:tag="Spaghetti Carbonara"
+        android:onClick="openRecipeDetail"/>
+
+    <Button
+        android:id="@+id/btnRecipe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chicken Curry"
+        android:tag="Chicken Curry"
+        android:onClick="openRecipeDetail"/>
+
+    <Button
+        android:id="@+id/btnRecipe3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beef Stroganoff"
+        android:tag="Beef Stroganoff"
+        android:onClick="openRecipeDetail"/>
+
+    <Button
+        android:id="@+id/btnRecipe4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vegetable Stir-fry"
+        android:tag="Vegetable Stir-fry"
+
+        android:onClick="openRecipeDetail"/>
+
+    <Button
+        android:id="@+id/btnRecipe5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pancakes"
+        android:tag="Pancakes"
+        android:onClick="openRecipeDetail"/>
+
+
+
+</LinearLayout>

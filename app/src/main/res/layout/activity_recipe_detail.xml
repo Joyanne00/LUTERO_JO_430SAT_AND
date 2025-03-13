@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#00FFFF"
+
+    tools:context=".RecipeDetailActivity">
+
+        <TextView
+            android:id="@+id/txtRecipeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imgRecipe"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/txtRecipeTitle"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/txtRecipeDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe Details Here"
+            android:layout_below="@id/imgRecipe"
+            android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRecipeDetails"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="12dp"
+        android:text="Back to Home" />
+
+    <Button
+        android:id="@+id/btnBackToRecipeList"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRecipeDetails"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="70dp"
+        android:onClick="goToRecipeList"
+        android:text="Back to Recipe List" />
+</RelativeLayout>
+
+
