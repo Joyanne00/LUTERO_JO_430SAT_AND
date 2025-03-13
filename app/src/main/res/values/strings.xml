@@ -1,0 +1,11 @@
+<!--<resources
+    <string name="app_name">TaskManagerActivity</string>
+</resources> -->
+
+<resources>
+<string-array name="task_categories">
+    <item>Work</item>
+    <item>Personal</item>
+    <item>Urgent</item>
+</string-array>
+</resources>
